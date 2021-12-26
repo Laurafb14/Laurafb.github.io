@@ -1,2 +1,0 @@
-# hosting
-Project website
