@@ -1,10 +1,10 @@
-let miImage = document.querySelector('img');
+let miImage = document.querySelector('img#swap');
 miImage.onclick = function () {
     let miSrc = miImage.getAttribute('src');
-    if (miSrc === 'images/firefox-icon.png') {
-      miImage.setAttribute('src','images/firefox2.png');
+    if (miSrc === 'images/a.jpg') {
+      miImage.setAttribute('src','images/b.jpg');
     } else {
-      miImage.setAttribute('src', 'images/firefox-icon.png');
+      miImage.setAttribute('src', 'images/a.jpg');
     }
 }
 
